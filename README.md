@@ -1,6 +1,6 @@
 # 538 project (in progress)
 
-In fall 2022 I participated in the Erdös Institute's data science boot camp.  Unfortunately I entered the boot camp 3 weeks late, then was very busy with teaching, so I didn't get much out of it, and in particulat, I didn't do a final project.  Then in February 2023 I decided to do a project by myself (during the boot camp the projects are meant to be done in groups), though I received a lot of help from the Erdös Institute staff.  I started this project in mid-March 2023, but had to put it on hold once April started, to work on another project.
+In fall 2022 I participated in the Erdös Institute's data science boot camp.  Unfortunately I entered the boot camp 3 weeks late, then was very busy with teaching, so I didn't get much out of it, and in particular, I didn't do a final project.  Then in February 2023 I decided to do a project by myself (during the boot camp the projects are meant to be done in groups), though I received a lot of help from the Erdös Institute staff.  I started this project in mid-March 2023, but had to put it on hold once April started, to work on another project.
 
 ## About the project
 
