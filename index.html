@@ -33,6 +33,14 @@
 <p>The big draw is the function I wrote that would scrape the number of comments from each post.  The comments are part of a Facebook plugin and I had to use an IP rotator to access it repeatedly.</p>
 <p>Below are the results from the last 1026 features posts on fivethirtyeight, as of 3 May 2024.</p>
 
+fetch("..\ProblemStatementOutputs\1026_03-05-2023_14-56-41.csv")
+    .then(function (res) {
+        return res.text();
+    })
+    .then(function (data) {
+        console.log(data);
+    });
+	
 </div>
 </body>
 </html>
