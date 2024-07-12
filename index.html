@@ -33,10 +33,10 @@
 <h1>Python demonstration (scraping metadata from <a href=https://abcnews.go.com/538>fivethirtyeight.com</a>)</h1>
 
 <p>Back in spring of 2023 I wrote a Python script that would scrape metadata from the features pages on fivethirtyeight.com.  At the time I was very new to Python.</p>
-<p>The big draw is the function I wrote that would scrape the number of comments from each post.  The comments are part of a Facebook plugin and I had to use an IP rotator to access it repeatedly.</p>
+<p>The big draw is the function I wrote that would scrape the number of comments from each post.  The comments are part of a Facebook plugin and I had to first use selenium to render the JavaScript on the page for the plugin, then I needed an IP rotator to access the plugin repeatedly.</p>
 <p>The output is a .csv file with the metadata.  <a href="https://github.com/wh33les/538Project/tree/main/ProblemStatementOutputs">Here is a folder with output files</a>, if you're interested.</p>
 <p>The bigger picture is I wanted to use this metadata in a data science project for the Erd&ouml;s Institute's Data Science Boot Camp.  You can find everything I did for this project in my Github repository, <a href="https://github.com/wh33les/538Project">538Project</a>.</p>
-<p><a href="ProblemStatement.html">Here is the Jupyter notebook.</a></p>
+<p><a href="ProblemStatement.html">Here is the Jupyter notebook with the scraping script.</a></p>
 <!--<p>Below are the results from the last 1026 features posts on fivethirtyeight, as of 3 May 2024.</p>-->
 
 
