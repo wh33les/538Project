@@ -1,55 +1,67 @@
 <!DOCTYPE html>
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100299463-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-100299463-1');
-</script>
-    <title>
-        538 Project
-    </title>
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100299463-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-100299463-1');
+	</script>
+	<title>
+		538 project | Ashley K. W. Warren
+	</title>
+	<link rel="icon" type="image/x-icon" href="jobinterview.ico">
 	<style>
-        div {
-			background-color:#ffffff;
-			color:#000000;
-			padding:2%;
-			width:800px;
-			margin:auto;
-			font-family:Helvetica;
-			opacity:0.9;
+		div {
+			background-color: #ffffff;
+			color: #000000;
+			padding: 2%;
+			width: 800px;
+			margin: auto;
+			font-family: Helvetica;
+			opacity: 0.9;
 		}
+
 		body {
-			background-color:#000000;
+			background-color: #000000;
 		}
-		
+
 		svg {
 			width: 800px;
 			height: 450px;
 			/*background-color: lightgray;*/
-        }
-    </style>
+		}
+	</style>
 	<base target="_blank"> <!-- Opens links in a new tab by default -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- JQuery -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- JQuery -->
 	<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script> <!-- Papa parse -->
 </head>
 
 <body>
-<div>
-<h1>Python demonstration (scraping metadata from <a href=https://abcnews.go.com/538>fivethirtyeight.com</a>)</h1>
+	<div>
+		<h1>Python demonstration (scraping metadata from <a href=https://abcnews.go.com/538>fivethirtyeight.com</a>)
+		</h1>
 
-<p>Back in spring of 2023 I wrote a Python script that would scrape metadata from the features pages on fivethirtyeight.com.  At the time I was very new to Python.</p>
-<p>The big draw is the function I wrote that would scrape the number of comments from each post.  The comments are part of a Facebook plugin and I had to first use selenium to render the JavaScript on the page for the plugin, then I needed an IP rotator to access the plugin repeatedly.</p>
-<p>The output is a .csv file with the metadata.  <a href="https://github.com/wh33les/538Project/tree/main/ProblemStatementOutputs">Here is a folder with output files</a>, if you're interested.</p>
-<p>The bigger picture is I wanted to use this metadata in a data science project for the Erd&ouml;s Institute's Data Science Boot Camp.  You can find everything I did for this project in my Github repository, <a href="https://github.com/wh33les/538Project">538Project</a>.</p>
-<p><a href="ProblemStatement.html">Here is the Jupyter notebook with the scraping script.</a></p>
-<!--<p>Below are the results from the last 1026 features posts on fivethirtyeight, as of 3 May 2024.</p>-->
+		<p>Back in spring of 2023 I wrote a Python script that would scrape metadata from the features pages on
+			fivethirtyeight.com. At the time I was very new to Python.</p>
+		<p>The big draw is the function I wrote that would scrape the number of comments from each post. The comments
+			are part of a Facebook plugin and I had to first use selenium to render the JavaScript on the page for the
+			plugin, then I needed an IP rotator to access the plugin repeatedly.</p>
+		<p>The output is a .csv file with the metadata. <a
+				href="https://github.com/wh33les/538Project/tree/main/ProblemStatementOutputs">Here is a folder with
+				output files</a>, if you're interested.</p>
+		<p>The bigger picture is I wanted to use this metadata in a data science project for the Erd&ouml;s Institute's
+			Data Science Boot Camp. You can find everything I did for this project in my Github repository, <a
+				href="https://github.com/wh33les/538Project">538Project</a>.</p>
+		<p><a href="ProblemStatement.html">Here is the Jupyter notebook with the scraping script.</a></p>
+		<!--<p>Below are the results from the last 1026 features posts on fivethirtyeight, as of 3 May 2024.</p>-->
 
 
-<!--<input type='file' id="UploadFile" accept=".csv">
+		<!--<input type='file' id="UploadFile" accept=".csv">
 <button id="uploadsuccess">file uploaded</button>
 <script>
 	const csvData=[];
@@ -68,11 +80,12 @@
 				}
 			});
 		});
-</script>--> <!-- code from https://codedamn.com/news/javascript/how-to-read-csv-with-javascript.  It has a button to upload a csv file and then it reads it to the console.  Mine didn't work.   -->
+</script>-->
+		<!-- code from https://codedamn.com/news/javascript/how-to-read-csv-with-javascript.  It has a button to upload a csv file and then it reads it to the console.  Mine didn't work.   -->
 
 
 
-<!-- <script type="text/javascript">
+		<!-- <script type="text/javascript">
 $.get('http://localhost/ProblemStatementOutput/1026_03-05-2023_14-56-41.csv', function(data) {
 	// Log the data to the console
     console.log(data);
@@ -87,9 +100,11 @@ $.get('http://localhost/ProblemStatementOutput/1026_03-05-2023_14-56-41.csv', fu
 	build += "</table>";
 	$('#wrap').append(build);
 	});
-</script> -->  <!-- found this code on https://stackoverflow.com/questions/41637226/how-to-read-and-display-data-from-a-csv-file-to-html-webpage -->
+</script> -->
+		<!-- found this code on https://stackoverflow.com/questions/41637226/how-to-read-and-display-data-from-a-csv-file-to-html-webpage -->
 
-	
-</div>
+
+	</div>
 </body>
+
 </html>
